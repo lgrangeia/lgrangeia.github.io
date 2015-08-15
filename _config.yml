@@ -1,0 +1,20 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Luis Grangeia
+tagline:             'A personal blog'
+description:         ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Luis Grangeia
+  url:               https://twitter.com/lgrangeia
+  email:             luis.grangeia@sysvalue.com
+
+# Custom vars
+version:             1.0.0
