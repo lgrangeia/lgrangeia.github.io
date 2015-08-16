@@ -7,7 +7,7 @@ My name is Luis Grangeia, and I'm an information security professional working i
 
 I do information security auditing and testing to major portuguese and european companies (retail, banking, insurance, telcos). I sometimes speak about information security at conferences and meetings.
 
-Some notable stuff that I put out there:
+Some stuff that I put out there you might find interesting:
 
  - [Cupid](https://github.com/lgrangeia/cupid), an implementation of the heartbleed attack for wireless networks, implemented as patches for hostapd and wpa_supplicant (slides [here](http://www.slideshare.net/lgrangeia/heartbleed-35236317)).
  - I authored a [Burp Suite extension](https://github.com/lgrangeia/aesburp) to handle and inject inside AES encrypted payloads.
