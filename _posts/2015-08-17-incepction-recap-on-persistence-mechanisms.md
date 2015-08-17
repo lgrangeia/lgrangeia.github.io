@@ -1,5 +1,6 @@
 ---
 layout: post
+category: post
 title: IncePCtion - Recap on persistence techniques on modern desktop PCs
 ---
 
