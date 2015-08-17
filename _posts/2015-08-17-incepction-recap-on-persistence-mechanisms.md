@@ -59,7 +59,7 @@ Notorious examples are [GPU rootkits](http://arstechnica.com/security/2015/05/gp
 
 ## 6. SMM Rootkits
 
-SMM or System Management Mode is a special mode of execution in modern PC’s to handle special hardware functions like power management, system hardware control, or proprietary OEM designed code (Wikipedia url). Usually an SMI interrupt is triggered by an hardware function and the CPU enters a special mode of execution. Note that this special SMI interrupt cannot be caught by the operating system. While in this SMM mode a special block of memory (the SMRAM) can be read or written to, remaining protected from the OS. The rootkit works by patching/backdooring the SMI handler that exists in SMRAM. 
+[System Management Mode](https://en.wikipedia.org/wiki/System_Management_Mode) (or SMM) is a special mode of execution in modern PC’s to handle special hardware functions like power management, system hardware control, or proprietary OEM designed code. Usually, an SMI interrupt is triggered by an hardware function and the CPU enters a special mode of execution. Note that this special SMI interrupt cannot be caught by the operating system. While in this SMM mode a special block of memory (the SMRAM) can be read or written to, remaining protected from the OS. The rootkit works by patching/backdooring the SMI handler that exists in SMRAM. 
 
 Make sure to read this [paper](http://www.eecs.ucf.edu/~czou/research/SMM-Rootkits-Securecom08.pdf) for more information. 
 
