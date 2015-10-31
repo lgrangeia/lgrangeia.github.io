@@ -9,7 +9,7 @@ It was a very interesting conference, mostly because it got to gather in the sam
 
 I had the honor of being invited to talk on a panel with the theme “Risk Management & Policies – No shortcuts for security”, alongside Fernando Fevereiro Mendes.
 
-The talk was recorded and is available on Youtube. It’s in portuguese, and a bit long so, here are the main topics I talked about:
+The talk was recorded and is available on Youtube. It’s in portuguese and is a bit long so here are the main topics I talked about:
 
 - Attacker methodologies are fairly unchanged over the years because defenders are so slow to adapt; how do we close the gap between a successful attack strategy and successful defense strategy?
 
