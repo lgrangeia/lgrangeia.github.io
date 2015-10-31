@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On Risk Management and Policies, C-Days 2015
+description: Earlier this October I attended and participated in C-Days 2015, an annual conference on cyber security, organized by CNCS - Here are my thoughts on it. 
 ---
 
 Earlier this October I attended [C-Days 2015](https://c-days2015.topi.com), an annual conference on cyber security, organized by [CNCS](http://www.cncs.gov.pt). 
@@ -23,4 +24,4 @@ Here is the video in full. I start at around the 17m mark.
 
 <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/8TnGjjTGnm0" frameborder="0" allowfullscreen></iframe>
 
-I was also present at [B-Sides 2015](http://www.bsideslisbon.org/) earlier this year which was also great, and a bit more comfortable for me, a true “hacker conference”. I hope next year the audience for both these conferences will be pretty much the same. It would be a good sign of maturity for the industry.
+I was also present at [B-Sides Lisbon](http://www.bsideslisbon.org/) earlier this year which was also great, and a bit more comfortable for me, a true “hacker conference”. I hope next year the audience for both these conferences will be pretty much the same. It would be a good sign of maturity for the industry.
