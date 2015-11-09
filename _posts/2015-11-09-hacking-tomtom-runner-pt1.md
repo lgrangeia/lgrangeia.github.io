@@ -114,9 +114,9 @@ Lets take a step back for now regarding firmware analysis. Let's look at what we
 
 ## 06. Hardware
 
-What can we learn about the watch hardware without opening it? This is probably old news to veteran reverse engineers, but here goes: pretty much any RF emitting device sold in the United States is tested by FCC, that eventually publishes its report containing all sorts of juicy information and photos.
+What can we learn about the watch hardware without opening it? This is probably old news to veteran reverse engineers, but here goes: pretty much any RF emitting device sold in the United States is tested by the FCC, that eventually publishes its report containing all sorts of juicy information and photos.
 
-There's a nice [search engine](https://fcc.io/) for FCC report data (the official site seems purposefully obtuse) by Dominic Spill, you just need the FCC ID (S4L8RS00 in our case). Here is the obligatory full frontal nude photo of our device, courtesy of FCC:
+There's a nice [search engine](https://fcc.io/) for FCC report data (the official site seems purposefully obtuse) by Dominic Spill, you just need the FCC ID (S4L8RS00 in our case). Here is the obligatory full frontal nude photo of our device, courtesy of the FCC:
 
 ![vbindiff]({{ site.url }}/assets/naked_tomtom.jpg)
 
