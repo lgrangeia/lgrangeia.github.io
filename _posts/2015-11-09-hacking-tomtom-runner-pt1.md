@@ -28,7 +28,7 @@ Apart from the "hacker tingles" you get from hacking devices that exist in the r
 
  - **Simpler architectures**: Usually embedded devices have much less complex hardware and software than a general purpose computer or a smartphone/tablet with a complex OS; 
  - **Fewer attack mitigations**: These things usually lack memory protections such as ASLR, DEP, stack canaries, etc.;
- - **ARM Architecture**: I had some previous experience in x86/x64 reversing, but having to get back to it, i feel that learning ARM is probably more important now than Intel architectures, well because Android, iOS, smartphones & tablets;
+ - **ARM Architecture**: I had some previous experience in x86/x64 reversing, but having to get back to it, I feel that learning ARM is probably more important now than Intel architectures, well because Android, iOS, smartphones & tablets;
  - Charlie Miller and Chris Valasek made it look easy :)
 
  Then there's the obvious buzzword of the year, *The Internet of Things*. Buzz aside, I feel that we're really getting to the point where every electronic device is generating data and sharing it to the world. 
