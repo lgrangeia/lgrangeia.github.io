@@ -195,4 +195,4 @@ Turns out that if you write the firmware file you saw earlier from download.tomt
 
 ## 07. To be continued...
 
-This is turning up to be a long post so I'll won't keep you longer for today. I will keep my promise and show you how I exploited this watch and extracted / modified its firmware. Next post will be about finding that memory corruption bug and controlling execution.
+This is turning up to be a long post so I won't keep you longer for today. I will keep my promise and show you how I exploited this watch and extracted / modified its firmware. Next post will be about finding that memory corruption bug and controlling execution.
