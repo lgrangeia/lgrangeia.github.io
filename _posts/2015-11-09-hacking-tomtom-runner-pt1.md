@@ -58,7 +58,7 @@ Analyzing the firmware files for these devices was done using [binwalk](http://b
 
 ## 04. Attack Surface
 
-I chose the TomTom, so the next thing to do is to look at it from a hacker's perspective. I'm good at breaking things but not so good at putting them back together, and since I use the watch regularly for its intended purpose, I made a promise to myself not to try to open it and attempt any sort of hardware hacking via JTAG/Debug pins. Also there would likely be at least some protections and it's a steep learning curve with some penalty for error. 
+I chose the TomTom, so the next thing to do was to look at it from a hacker's perspective. I'm good at breaking things but not so good at putting them back together, and since I use the watch regularly for its intended purpose, I made a promise to myself not to try to open it and attempt any sort of hardware hacking via JTAG/Debug pins. Also there would likely be at least some protections and it's a steep learning curve with some penalty for error. 
 
 So what are our options from an external perspective? I figured these were the attack vectors:
 
