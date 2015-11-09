@@ -88,7 +88,7 @@ There were other files: device configuration files, firmware for the GPS and BLE
 
 The larger file (around ~400kb) is 0x000000F0 and looks like the main firmware. Looking at it with binwalk gave us this:
 
-```console
+```
 $ binwalk -BEH 0x000000F0
 
 DECIMAL       HEXADECIMAL     HEURISTIC ENTROPY ANALYSIS
@@ -96,6 +96,7 @@ DECIMAL       HEXADECIMAL     HEURISTIC ENTROPY ANALYSIS
 1024          0x400           High entropy data, best guess: encrypted, size: 470544, 0 low entropy blocks
 
 ```
+
 ![binwalk entropy graph]({{ site.url }}/assets/binwalk01.png)
 
 Want further proof that this is encrypted? Check out this comparison of two different firmware versions, using `vbindiff`:
@@ -145,12 +146,14 @@ I did some more investigations regarding USB, and made a [crude fork](https://gi
 These investigations led me to find a lot of interesting and undocumented USB commands for the device. The USB communication is quite simple, with each command composed by at least the following four bytes:
 
 ```
+
 09 02 01 0E
 
 "09" -> Indicates a command to the watch (preamble)
 "02" -> Size of message
 "01" -> sequence number. Should increment after each command.
 "0E" -> Actual command byte (this one formats the EEPROM)
+
 ```
 
 Some commands have arguments, such as file contents, etc. Since each command is a single byte, it was easy to cycle through all possible commands. The full list is [available here](https://github.com/lgrangeia/ttwatch/blob/master/ttdiag/ttdiag_notes.txt). There were some interesting commands, such as a hidden test menu, a command that took "screenshots" of the device and saved them on the EEPROM, etc. Here is the test menu testing the accelerometer sensor:
