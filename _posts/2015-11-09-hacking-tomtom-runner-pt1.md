@@ -54,7 +54,7 @@ The Tomtom runner is a cooler watch. If you're looking for a good and cheap GPS 
 
 The first thing I did was to download the firmware for all these devices. Firmware for these devices can usually be found on the manufacturer’s web site, user forums etc.
 
-Analyzing the firmware files for these devices was done using [binwalk](http://binwalk.org/). The results were discouraging: Out of there three devices, the main firmware was encrypted using a 16 byte block cipher (probably AES) in two of them. It appears that most of the firmware these days is distributed encrypted. 
+Analyzing the firmware files for these devices was done using [binwalk](http://binwalk.org/). The results were discouraging: Out of the three devices, the main firmware was encrypted using a 16 byte block cipher (probably AES) in two of them. It appears that most of the firmware these days is distributed encrypted. 
 
 ## 04. Attack Surface
 
