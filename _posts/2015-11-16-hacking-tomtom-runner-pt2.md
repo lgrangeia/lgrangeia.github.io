@@ -216,7 +216,7 @@ How cool is that? :)
 
 Though we've gotten far, this is still not the end. We can now execute arbitrary code inside our watch, but we're still pretty much in the dark. Remember, we want to be able to gain access to the firmware inside the watch, be it by obtaining the encryption key or dumping it from the watch.
 
-How do we do that? How would **you** do that? I'm ending this post with a challenge: tell me how would you approach this problem. Let me hear your strategies of obtaining more information about the current execution environment and how would you go about to exfiltrate/obtain/reach the firmware's encryption key.
+How do we do that? How would **you** do that? **I'm ending this post with a challenge: tell me how would you approach this problem**. Let me hear your strategies of obtaining more information about the current execution environment and how would you go about to exfiltrate/obtain/reach the firmware's encryption key.
 
 Please tweet to me at [@lgrangeia](https://twitter.com/lgrangeia) with your ideas. Ask me questions and maybe I'll provide hints. To my friends who already know how I did it, no spoilers please :)
 
