@@ -212,7 +212,7 @@ Crashlog - SW ver 1.8.42
 How cool is that? :)
 
 
-## 04. To be continued...
+## 03. To be continued...
 
 Though we've gotten far, this is still not the end. We can now execute arbitrary code inside our watch, but we're still pretty much in the dark. Remember, we want to be able to gain access to the firmware inside the watch, be it by obtaining the encryption key or dumping it from the watch.
 
