@@ -250,7 +250,7 @@ Having dumped the entire bootloader we can conclude that:
 
 Armed with these pieces of information, my [busticati](http://www.urbandictionary.com/define.php?term=Busticati) friend **pmsac** (at toxyn.org) contributed to this mission with a small Python script that would sweep the bootloader and try and decrypt the main firmware file with every consecutive 16 byte string contained in the dumped bootloader (using a byte-by-byte sliding window over the entire bootloader file, not really caring for duplicates). There was also some care to make sure we were working on the right endianess. The resulting outputs were then passed through [“ent”](http://manned.org/ent/5e05dad9) and the calculated entropy value was used to decide if a certain “plain text” was the desired output.
 
-Unfortunately this did not produce a valid result. All of the resulting "plain texts" had no recognizable strings and still very high entropy, characteristic of encrypted/random bytes sequences.
+Unfortunately this did not produce a valid result. All of the resulting "plain texts" had no recognizable strings and still very high entropy, characteristic of encrypted/random byte sequences.
 
 We must make sense of the bootloader and try to understand why the key was not immediately available. 
 
@@ -392,7 +392,7 @@ Again my good and talented friends helped. **[João Poupino](https://twitter.com
 
 I did a small script that decrypts and encrypts a firmware file given its key. Most of the tools and techniques I used in this project are (or will be) published at my github [here](https://github.com/lgrangeia/tomtom-hacking).
 
-I did a small proof of concept by modifying a string inside the firmware file. Since almost every string you see when normally operating the watch is localized from an external language file (which we’ve already seen are easy to change without touching the main firmware), I had to look for something different: the Test Menu uses hardcoded strings, and I modified the one that originally said "Waiting for cmd". The result isa much better one, as you can see in the pictures.
+I did a small proof of concept by modifying a string inside the firmware file. Since almost every string you see when normally operating the watch is localized from an external language file (which we’ve already seen are easy to change without touching the main firmware), I had to look for something different: the Test Menu uses hardcoded strings, and I modified the one that originally said "Waiting for cmd". The new string is much better, as you can see in the pictures.
 
 ![hex editing custom firmware]({{ site.url }}/assets/hackedbykossak.png)
 
