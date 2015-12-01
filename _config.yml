@@ -17,6 +17,9 @@ tagline:             'A personal blog'
 description:         ''
 paginate:            5
 
+gems:
+  - jekyll-feed
+
 # About/contact
 author:
   name:              Luis Grangeia
