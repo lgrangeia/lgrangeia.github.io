@@ -63,13 +63,13 @@ Each file corresponds to a different translation, in this case I changed the Ger
 
 The first interesting result was with a zero `sbuf_size` and a non-zero `num_strings`. Here's a video of it:
 
-<iframe width="100%" height="520" src="http://www.youtube.com/embed/KmaCkanFpKs" frameborder="0"> </iframe>
+<iframe width="100%" height="520" src="https://www.youtube.com/embed/KmaCkanFpKs" frameborder="0"> </iframe>
 
 Note that the strings are changing _during_ the watch operation. Basically the interface is loading strings (or pointers to said strings) from some RAM region which is written to during the device's operation.
 
 This was interesting. Even more interesting was the next result: we created a large file with an `sbuf_size` larger than 6000 bytes. In this case we used 6001 bytes. The file size was coincident with `sbuf_size`. Here's the result:
 
-<iframe width="100%" height="520" src="http://www.youtube.com/embed/YK737-YaTp4" frameborder="0"> </iframe>
+<iframe width="100%" height="520" src="https://www.youtube.com/embed/YK737-YaTp4" frameborder="0"> </iframe>
 
 The device appears to reboot when you attempt to change UI language. If I remember correctly, other edge cases would also cause a reboot.
 
