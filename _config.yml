@@ -14,7 +14,6 @@ host:		     88.198.219.49
 title:               Luis Grangeia
 tagline:             'A personal blog'
 description:         ''
-paginate:            5
 
 gems:
   - jekyll-feed
