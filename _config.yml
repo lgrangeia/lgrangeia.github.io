@@ -7,12 +7,10 @@ markdown:            kramdown
 kramdown:
   input: GFM
 
-# Serve:
-host:		     88.198.219.49		     
-
 # Setup
 title:               Luis Grangeia
 tagline:             'A personal blog'
+url:                 https://lgrangeia.github.io
 description:         ''
 
 paginate: 1
