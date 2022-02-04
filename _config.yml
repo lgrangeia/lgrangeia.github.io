@@ -15,8 +15,8 @@ title:               Luis Grangeia
 tagline:             'A personal blog'
 description:         ''
 
-paginate: 1
-paginate_path: "/blog/page:num/"
+paginate: 5
+paginate_path: "/page:num/"
 
 gem 'github-pages', '170', group: :jekyll_plugins
 
