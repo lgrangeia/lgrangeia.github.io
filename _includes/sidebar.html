@@ -25,6 +25,11 @@
       {% endif %}
     {% endfor %}
 
+    {% for post in site.posts %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ post.permalink }}">{{ post.title }}</a>
+    {% endfor %}
+
   </nav>
 
 </div>
+
